@@ -1,0 +1,168 @@
+	body {
+ 			   background-color: GreenYellow;
+ 			   background-image: url('https://livewallpaperhd.com/wp-content/uploads/2017/05/White-Plain-Wallpaper-Hd.jpg');
+
+			}
+			h1 {
+    		background-color: GreenYellow;
+    		border-style: solid;
+    		border-color: black;
+    		border-width: 5px;
+    		font-size: 1.5em;
+			} 
+			fieldset{
+				margin-left: 4px;
+				width: 93%;
+				border-radius: 7px;
+			}
+			input[type=submit] {
+			    width: 98%;
+			    background-color: Green;
+			    color: white;
+			    padding: 14px 20px;
+			    margin: 8px 0;
+			    border: none;
+			    border-radius: 4px;
+			    cursor: pointer;
+			    border-style: solid;
+    			border-color: black;
+    			border-width: 1px;
+			}
+			input[type=reset] {
+			     width: 98%;
+			    background-color: Green;
+			    color: white;
+			    padding: 14px 20px;
+			    margin: 8px 0;
+			    border: none;
+			    border-radius: 4px;
+			    cursor: pointer;
+			    border-style: solid;
+    			border-color: black;
+    			border-width: 1px;
+			}
+			
+			
+			#col1{
+			padding-left: 10px;
+			margin-left: 8px;
+			border-radius: 8px;
+			float: left;
+			margin-left: 6px;
+			background-color: GreenYellow;
+    		border-style: solid;
+    		border-color: black;
+    		width: 650px;
+    		height: 250px;
+			}
+			#col2{
+			padding-left: 10px;
+			margin-left: 60px;
+			border-radius: 8px;
+			float: right;
+			margin-right: 6px;
+			background-color: GreenYellow;
+    		border-style: solid;
+    		border-color: black;
+    		width: 650px;
+    		height: 250px;
+
+			}
+			#col3{
+			padding-left: 10px;
+			margin-left: 8px;
+			margin-top: 10px;
+			border-radius: 8px;
+			float: left;
+			margin-left: 6px;
+			background-color: GreenYellow;
+    		border-style: solid;
+    		border-color: black;
+    		width: 650px;
+    		height: 250px;
+			}
+			#col4{
+			padding-left: 10px;
+			margin-left: 60px;
+			margin-top: 10px;
+			border-radius: 8px;
+			float: right;
+			margin-right: 6px;
+			background-color: GreenYellow;
+    		border-style: solid;
+    		border-color: black;
+    		width: 650px;
+    		height: 250px;
+
+			}	
+			#col5{
+			padding-left: 10px;
+			padding-top: 8px;
+			margin-left: 8px;
+			margin-top: 10px;
+			margin-right: 8px;
+			border-radius: 8px;
+			float: left;
+			background-color: GreenYellow;
+    		border-style: solid;
+    		border-color: black;
+    		width: 98%;
+    		height: 150px;
+			}
+			#columnaphp{
+			padding-left: 10px;
+			padding-top: 10px;
+			margin-left: 8px;
+			border-radius: 10px;
+			float: left;
+			margin-left: 6px;
+			background-color: Grey;
+    		border-style: solid;
+    		border-color: black;
+    		border-width: 3px;
+    		width: 800px;
+    		height: 450px;
+			}
+			#columnaphp2{
+			padding-left: 10px;
+			padding-top: 10px;
+			margin-left: 8px;
+			border-radius: 10px;
+			float: left;
+			margin-left: 6px;
+			background-color: Grey;
+    		border-style: solid;
+    		border-color: black;
+    		border-width: 3px;
+    		width: 400px;
+    		height: 450px;
+			}
+			#columnaphp3{
+			padding-left: 10px;
+			padding-top: 10px;
+			margin-left: 8px;
+			margin-top: 8px;
+			border-radius: 10px;
+			float: left;
+			margin-left: 6px;
+			background-color: Grey;
+    		border-style: solid;
+    		border-color: black;
+    		border-width: 3px;
+    		width: 800px;
+    		height: 450px;
+			}
+			#columnaphp4{
+			padding-left: 10px;
+			padding-top: 10px;
+			margin-left: 8px;
+			border-radius: 10px;
+			float: left;
+			margin-left: 6px;
+			background-color: Grey;
+    		border-style: solid;
+    		border-color: black;
+    		border-width: 3px;
+    		width: 400px;
+    		height: 450px;
+			}

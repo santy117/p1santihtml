@@ -14,14 +14,14 @@
 	<body>
 		<a name="inicio" id="inicio"> </a>
 		<h1>
-			
-				
-				<p align="center">FORMULARIO DE PELICULAS</p>	
-				
-			
+
+
+				<p align="center">FORMULARIO DE PELICULAS</p>
+
+
 		</h1>
 		<p id="hora"></p>
-	<form name="formulario" action="http://localhost:8080/p1.php" method="post" enctype="multipart/form-data" onsubmit="return comprobacion();">
+	<form name="formulario" action="p1.php" method="post" enctype="multipart/form-data" onsubmit="return comprobacion();">
 		<div id="col1">
 			<table width="500" border="0" cellpadding="1" cellspacing="1" bgcolor="#FFFFFF">
 			<br />
@@ -33,10 +33,8 @@
 			Introduzca la sinopsis de la pelicula:
 				<br />
 			</p>
-			<textarea name="info" cols="100" rows="8">
-			
-			</textarea>
-			
+			<textarea name="info" rows="7" cols="30" placeholder="Introduzca aqui la sinopsis."></textarea>
+
 			</table>
 
 		</div>
@@ -91,7 +89,7 @@
   					Fecha de nacimiento:
   					<br>
   					<input type="date" name="fecha"> <br>
-  					
+
   					</td>
   					<td>
   					Añada su foto de perfil: <br>
@@ -100,7 +98,7 @@
   					</tr>
   				</table>
   				</fieldset>
-  
+
 		</div>
 		<div id="col4">
 				<p align="left">
@@ -125,7 +123,7 @@
 						<td>
 							<input type="radio" name="codificacion" id="cod1" value="application/x-www-form-urlencoded" checked>application/x-www-form-urlencoded
 							<br>
-							<input type="radio" name="codificacion" id="cod2" value="multipart/form-data">multipart/form-data 
+							<input type="radio" name="codificacion" id="cod2" value="multipart/form-data">multipart/form-data
 							<br>
 						</td>
 
@@ -145,13 +143,13 @@
 				</table>
 
 		</div>
-		<!--	<div id="vinc"><a href="http://www.filmaffinity.com" 
-			onmouseover="javascript: void(document.getElementById('vinc').style.fontSize='4em')" 
+		<!--	<div id="vinc"><a href="http://www.filmaffinity.com"
+			onmouseover="javascript: void(document.getElementById('vinc').style.fontSize='4em')"
 			onmouseout="javascript: void(document.getElementById('vinc').style.fontSize='1em')">
 			 Enlace  </a></div>
 
 		</div> -->
-		
+
 			<div id="col5">
 				<input type="submit" value="REGISTRAR PELICULA">
 				<input type="reset" value="LIMPIAR FORMULARIO">
@@ -161,7 +159,7 @@
 		</form>
 <!--
 	        <div id="colfinal">
-	     	  
+
 	    	</div>
 -->
         <!--  <p align="center"><a href="#inicio">Volver al inicio</a></p> -->

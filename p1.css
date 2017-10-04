@@ -1,20 +1,22 @@
 	body {
- 			   background-color: GreenYellow;
- 			   background-image: url('https://livewallpaperhd.com/wp-content/uploads/2017/05/White-Plain-Wallpaper-Hd.jpg');
+ 			   background-color: #C2C2C2;
+ 			/*   background-image: url('https://livewallpaperhd.com/wp-content/uploads/2017/05/White-Plain-Wallpaper-Hd.jpg');
 
-			}
+			} */
+		}
 			h1 {
     		background-color: GreenYellow;
     		border-style: solid;
     		border-color: black;
     		border-width: 5px;
     		font-size: 1.5em;
-			} 
+			}
 			fieldset{
 				margin-left: 4px;
 				width: 93%;
 				border-radius: 7px;
 			}
+		/*
 			input[type=submit] {
 			    width: 98%;
 			    background-color: Green;
@@ -41,8 +43,8 @@
     			border-color: black;
     			border-width: 1px;
 			}
-			
-			
+
+
 			#col1{
 			padding-left: 10px;
 			margin-left: 8px;
@@ -52,8 +54,8 @@
 			background-color: GreenYellow;
     		border-style: solid;
     		border-color: black;
-    		width: 650px;
-    		height: 250px;
+    		width: 47%;
+    		height: 30%;
 			}
 			#col2{
 			padding-left: 10px;
@@ -64,8 +66,8 @@
 			background-color: GreenYellow;
     		border-style: solid;
     		border-color: black;
-    		width: 650px;
-    		height: 250px;
+    		width: 47%;
+    		height: 30%;
 
 			}
 			#col3{
@@ -78,8 +80,8 @@
 			background-color: GreenYellow;
     		border-style: solid;
     		border-color: black;
-    		width: 650px;
-    		height: 250px;
+    		width: 47%;
+    		height: 30%;
 			}
 			#col4{
 			padding-left: 10px;
@@ -91,10 +93,10 @@
 			background-color: GreenYellow;
     		border-style: solid;
     		border-color: black;
-    		width: 650px;
-    		height: 250px;
+    		width: 47%;
+    		height: 30%;
 
-			}	
+			}
 			#col5{
 			padding-left: 10px;
 			padding-top: 8px;
@@ -109,6 +111,7 @@
     		width: 98%;
     		height: 150px;
 			}
+			*/
 			#columnaphp{
 			padding-left: 10px;
 			padding-top: 10px;
@@ -134,8 +137,8 @@
     		border-style: solid;
     		border-color: black;
     		border-width: 3px;
-    		width: 400px;
-    		height: 450px;
+    		width: 80%;
+    		height: 60%;
 			}
 			#columnaphp3{
 			padding-left: 10px;
@@ -163,6 +166,6 @@
     		border-style: solid;
     		border-color: black;
     		border-width: 3px;
-    		width: 400px;
+    		width: 500px;
     		height: 450px;
 			}

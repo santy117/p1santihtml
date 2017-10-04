@@ -55,7 +55,7 @@
 			document.formulario.navegador.value= navigator.userAgent;
 
 			if (document.formulario.destinophp[1].checked){
-   				document.formulario.action="http://localhost:8080/p1.php";
+   				document.formulario.action="p1.php";
    			}else{
    				document.formulario.action="http://193.146.210.123/phpinfo.php";
    			}
@@ -85,10 +85,7 @@
 			//alert("Numero correcto");
 			return true;
 		}
-		
+
 
 			//	var d= new Date();
 			//  document.getElementById("hora").innerHTML("hola");
-		
-
-	

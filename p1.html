@@ -25,25 +25,23 @@
 		<div id="col1">
 			<table width="500" border="0" cellpadding="1" cellspacing="1" bgcolor="#FFFFFF">
 			<br />
-			Introduzca el nombre de la pelicula a registrar:
-			<br />
+			<h3>Introduzca el nombre de la pelicula a registrar: </h3>
+			
 			<input type="text" name="nombrepeli" id="nombrepeli" size="40px">
 			<br />
 			<p align="left">
-			Introduzca la sinopsis de la pelicula:
-				<br />
+			<h3>Introduzca la sinopsis de la pelicula:</h3>
+			
 			</p>
-			<textarea name="info" rows="7" cols="30" placeholder="Introduzca aqui la sinopsis."></textarea>
+			<textarea name="info" rows="7" cols="30" placeholder="Maximo 300 caracteres."></textarea>
 
 			</table>
 
-		</div>
-		<div id="col2">
 				<table>
 				<tr>
 				<td>
 				<br>
-				<p align="left" /> Que generos contiene la pelicula? <br>
+				<p align="left" /> <h3>Que generos contiene la pelicula?</h3>
 				<input type="checkbox" name="checkbox1" id="checkbox1"> Accion
 				<br>
 				<input type="checkbox" name="checkbox2" id="checkbox2"> Comedia
@@ -60,18 +58,18 @@
 				<br>
 				</td>
 				<td>
-				Introduzca el nombre del director: <br>
+				<br>
+				<h3>Introduzca el nombre del director:</h3>
 				<input type="text" name="director" size="40px"> <br> <br>
-				Introduzca la fecha de estreno: <br>
-				<input type="date" name="fechaestreno"> <br>
+				<h3>Introduzca la fecha de estreno:</h3>
+				<input type="text" name="fechaestreno" placeholder="dd/mm/aaaa"> <br>
 				</td>
 				</tr>
 			</table>
-		</div>
-		<div id="col3">
+		
 				<br>
 					<fieldset>
-						<legend>INFORMACION PERSONAL</legend>
+						<legend><h3>INFORMACION PERSONAL </h3></legend>
 					<br>
 					<table>
 					<tr>
@@ -80,7 +78,7 @@
 					<input type="text" name="registro1" id="registro1" size="40px">   <!--El tag required hace que debamos rellenar el campo -->
 					<br>
 					Telefono:
-					<input type="text" name="registro2" id="registro2" size="40px">(se debe introducir un numero de 9 cifras)
+					<input type="text" name="registro2" id="registro2" size="40px" placeholder="Debe contener 9 cifras">
 					<br>
 					Sexo:
 					<br>
@@ -88,23 +86,23 @@
   					<input type="radio" name="genero" value="Mujer"> Mujer<br>
   					Fecha de nacimiento:
   					<br>
-  					<input type="date" name="fecha"> <br>
+  					<input type="text" name="fecha" placeholder="dd/mm/aaaa"> <br>
 
   					</td>
   					<td>
+  					<br><br><br><br>
+  					Contraseña: <br>
+  					<input id="pass" type="password"> <br><br>
   					Añada su foto de perfil: <br>
-  					<input id="perfil" type="file" name="fotoperfil" placeholder="Foto" accept="image/*"> <br> <br>
+  					<input id="perfil" type="file" name="fotoperfil" placeholder="Foto" accept="image/*">
   					</td>
   					</tr>
   				</table>
   				</fieldset>
 
-		</div>
-		<div id="col4">
 				<p align="left">
-			Introduzca el tipo de mensaje que quieres enviar:
-			<br />
-			</p>
+			<h3>Introduzca el tipo de mensaje que quieres enviar: </h3>
+						</p>
 				<table>
 					<tr>	<td>
 							<p align="left" /> Elige el metodo de envio:
@@ -136,13 +134,12 @@
 							<input type="radio" name="destinophp" id="des1" value="http://193.146.210.123/phpinfo.php" checked>http://193.146.210.123/phpinfo.php
 							<br>
 							<input type="radio" name="destinophp" id="des2" value="p1.php">p1.php
-							<br>
+							<br><br>
 						</td>
 
 					</tr>
 				</table>
 
-		</div>
 		<!--	<div id="vinc"><a href="http://www.filmaffinity.com"
 			onmouseover="javascript: void(document.getElementById('vinc').style.fontSize='4em')"
 			onmouseout="javascript: void(document.getElementById('vinc').style.fontSize='1em')">
@@ -150,10 +147,11 @@
 
 		</div> -->
 
-			<div id="col5">
+				<hr>
 				<input type="submit" value="REGISTRAR PELICULA">
 				<input type="reset" value="LIMPIAR FORMULARIO">
-			</div>
+				<br>
+	</div>
 		<input type="hidden" name="hora">
 		<input type="hidden" name="navegador">
 		</form>

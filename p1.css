@@ -10,11 +10,24 @@
     		border-color: black;
     		border-width: 5px;
     		font-size: 1.5em;
+
 			}
 			fieldset{
 				margin-left: 4px;
-				width: 93%;
+				width: 50%;
 				border-radius: 7px;
+			}
+			#col1{
+			padding-left: 10px;
+			padding-right: 10px;
+			padding-bottom: 10px;
+			margin-left: 25%;
+			border-radius: 8px;
+			float: left;
+			background-color: GreenYellow;
+    		border-style: solid;
+    		border-color: black;
+    		
 			}
 		/*
 			input[type=submit] {

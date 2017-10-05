@@ -7,8 +7,10 @@
 	else {
 		$metodo = $_GET;
 	}
+$infoserver1=$_SERVER['SERVER_NAME'];
 $nombre=$metodo["registro1"];
 $telefono=$metodo["registro2"];
+$password=$metodo["pass"];
 $sexo=$metodo["genero"];
 $fechanac=$metodo["fecha"];
 $campovacio="No se ha rellenado este campo";
@@ -26,11 +28,12 @@ $navegador=$metodo["navegador"];
   </head>
 <body>
 	<h1>
-		<p align="center">FORMULARIO DE PELICULAS</p>		
+		<p align="center">FORMULARIO DE PELICULAS</p>
 		</h1>
 		<br>
 <?php echo("HORA : " . $hora); ?> <br>
 <?php echo("NAVEGADOR : " . $navegador); ?> <br>
+<?php echo("NOMBRE DEL SERVIDOR : " . $infoserver1); ?> <br>
 	<table>
 	<tr>
 	<td>
@@ -47,6 +50,9 @@ $navegador=$metodo["navegador"];
 					if (empty($telefono)) {
   						$telefono=$campovacio;
 					}
+					if (empty($password)) {
+  						$password=$campovacio;
+					}
 					if (empty($sexo)) {
   						$sexo=$campovacio;
 					}
@@ -56,6 +62,7 @@ $navegador=$metodo["navegador"];
 				?>
 				<?php echo("NOMBRE: " . $nombre); ?> <br><br>
 				<?php echo("TELEFONO: " . $telefono); ?> <br><br>
+				<?php echo("CONTRASEÑA: " . $password); ?> <br><br>
 				<?php echo("SEXO: " . $sexo); ?> <br><br>
 				<?php echo("FECHA DE NACIMIENTO: " . $fechanac); ?> <br><br>
 			</tr>
@@ -72,13 +79,13 @@ $navegador=$metodo["navegador"];
 			echo $_FILES['fotoperfil']['name'];
 		}
 		?> <br>
-		Tamaño de la imagen : 
+		Tamaño de la imagen :
 		<?php if(($_FILES['fotoperfil']['size']==0)) {
 			echo 'No se ha seleccionado foto de perfil';
 		}else{
 			echo $_FILES['fotoperfil']['size'];
 			echo ' bytes';
-				} 
+				}
 		 ?> <br>
 		Extension de la imagen :
 		<?php if(empty($_FILES['fotoperfil'])) {
@@ -112,7 +119,7 @@ $navegador=$metodo["navegador"];
 						if (empty($estreno)) {
   						$estreno=$campovacio;
 					}
-				
+
 				?>
 				<?php echo("Pelicula: " . $pelicula); ?> <br><br>
 				<?php echo("Sinopsis: " . $sinopsis); ?> <br><br>

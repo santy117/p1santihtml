@@ -16,10 +16,11 @@
 		<h1>
 
 
-				<p align="center">FORMULARIO DE PELICULAS</p>
+				<p align="left">FORMULARIO DE PELICULAS</p>
 
 
 		</h1>
+
 		<p id="hora"></p>
 	<form name="formulario" action="p1.php" method="post" enctype="multipart/form-data" onsubmit="return comprobacion();">
 		<div id="col1">
@@ -62,7 +63,7 @@
 				<h3>Introduzca el nombre del director:</h3>
 				<input type="text" name="director" size="40px"> <br> <br>
 				<h3>Introduzca la fecha de estreno:</h3>
-				<input type="text" name="fechaestreno" placeholder="dd/mm/aaaa"> <br>
+				<input type="text" id="fechaestreno" name="fechaestreno" placeholder="dd/mm/aaaa"> <br>
 				</td>
 				</tr>
 			</table>
@@ -86,7 +87,7 @@
   					<input type="radio" name="genero" value="Mujer"> Mujer<br>
   					Fecha de nacimiento:
   					<br>
-  					<input type="text" name="fecha" placeholder="dd/mm/aaaa"> <br>
+  					<input type="text" id="fecha" name="fecha" placeholder="dd/mm/aaaa"> <br>
 
   					</td>
   					<td>

@@ -73,15 +73,40 @@
    				alert('get no permite form-data');
    				return false;
    			}
+   			
+   			var fecha1=document.getElementById("fechaestreno").value; 
+   			fecha1=fecha1.split("/"); 
+   			var dia1=fecha1[0];
+   			var mes1=parseInt(fecha1[1])-1; 
+			var anho1=fecha1[2]; 
+			
+			if(dia1>31 || dia1 <0 || mes1>12 || mes1 <0 || anho1>2017){
+				alert('Fecha de estreno incorrecta');
+				return false;
+			}
+			
 
+			var fecha2=document.getElementById("fecha").value; 
+   			fecha2=fecha2.split("/"); 
+   			var dia2=fecha2[0];
+   			var mes2=parseInt(fecha2[1])-1; 
+			var anho2=fecha2[2]; 
+			
+			if(dia2>31 || dia2 <0 || mes2>12 || mes2 <0 || anho2>2017){
+				alert('Fecha de nacimiento incorrecta');
+				return false;
+			}
+			
 			valor = document.getElementById("registro2").value;
 			if(valor=== ''){
 				return true;
 			}
-			if( !(/^\d{9}$/.test(valor)) ) {
+			else if( !(/^\d{9}$/.test(valor)) ) {
 		    alert("Numero incorrecto, debe tener 9 cifras seguidas");
  		    return false;
 			}
+
+			
 			//alert("Numero correcto");
 			return true;
 		}

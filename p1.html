@@ -1,22 +1,22 @@
-<!DOCTYPE HTML SYSTEM>
+<!DOCTYPE HTML>
 <html>
 
-  <head>
+  <HEAD>
+  	  <link rel="stylesheet" type="text/css" href="p1.css">
 
       <title>Practica 1 de HTML</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <link rel="stylesheet" type="text/css" href="p1.css">
-        <script src="p1.js" type="text/javascript"> </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      
+  <script src="p1.js" type="text/javascript"> </script>
 
-    </head>
+ </HEAD>
 
-
-	<body>
-		<a name="inicio" id="inicio"> </a>
+<BODY>
+		<a id="inicio"> </a>
 		<h1>
 
 
-				<p align="left">FORMULARIO DE PELICULAS</p>
+				FORMULARIO DE PELICULAS
 
 
 		</h1>
@@ -24,25 +24,20 @@
 		<p id="hora"></p>
 	<form name="formulario" action="p1.php" method="post" enctype="multipart/form-data" onsubmit="return comprobacion();">
 		<div id="col1">
-			<table width="500" border="0" cellpadding="1" cellspacing="1" bgcolor="#FFFFFF">
-			<br />
-			<h3>Introduzca el nombre de la pelicula a registrar: </h3>
+			
+			<h3>Introduzca el nombre de la pelicula a registrar:</h3>
 
-			<input type="text" name="nombrepeli" id="nombrepeli" size="40px">
-			<br />
-			<p align="left">
+			<input type="text" name="nombrepeli" id="nombrepeli">
 			<h3>Introduzca la sinopsis de la pelicula:</h3>
+			
+			<textarea name="info" rows="7" cols="30"></textarea>
+			<br>
 
-			</p>
-			<textarea name="info" rows="7" cols="30" placeholder="Maximo 300 caracteres."></textarea>
-
-			</table>
-
-				<table>
+			<table>
 				<tr>
 				<td>
 				<br>
-				<p align="left" /> <h3>Que generos contiene la pelicula?</h3>
+				<h3>Que generos contiene la pelicula?</h3>
 				<input type="checkbox" name="checkbox1" id="checkbox1"> Accion
 				<br>
 				<input type="checkbox" name="checkbox2" id="checkbox2"> Comedia
@@ -61,7 +56,7 @@
 				<td>
 				<br>
 				<h3>Introduzca el nombre del director:</h3>
-				<input type="text" name="director" size="40px"> <br> <br>
+				<input type="text" name="director"> <br> <br>
 				<h3>Introduzca la fecha de estreno:</h3>
 				<input type="text" id="fechaestreno" name="fechaestreno" placeholder="dd/mm/aaaa"> <br>
 				</td>
@@ -70,16 +65,17 @@
 
 				<br>
 					<fieldset>
-						<legend><h3>INFORMACION PERSONAL </h3></legend>
+						<legend>INFORMACION PERSONAL 
+						</legend>
 					<br>
 					<table>
 					<tr>
 					<td>
 					Nombre :
-					<input type="text" name="registro1" id="registro1" size="40px">   <!--El tag required hace que debamos rellenar el campo -->
+					<input type="text" name="registro1" id="registro1">   <!--El tag required hace que debamos rellenar el campo -->
 					<br>
 					Telefono:
-					<input type="text" name="registro2" id="registro2" size="40px" placeholder="Debe contener 9 cifras">
+					<input type="text" name="registro2" id="registro2" placeholder="Debe contener 9 cifras">
 					<br>
 					Sexo:
 					<br>
@@ -95,18 +91,18 @@
   					Contraseña: <br>
   					<input name="pass" type="password"> <br><br>
   					Añada su foto de perfil: <br>
-  					<input id="perfil" type="file" name="fotoperfil" placeholder="Foto" accept="image/*">
+  					<input id="perfil" type="file" name="fotoperfil" accept="image/*">
   					</td>
   					</tr>
   				</table>
   				</fieldset>
 
-				<p align="left">
+				
 			<h3>Introduzca el tipo de mensaje que quieres enviar: </h3>
-						</p>
+		
 				<table>
 					<tr>	<td>
-							<p align="left" /> Elige el metodo de envio:
+						 Elige el metodo de envio:
 							</td>
 							<td>
 							<input type="radio" name="getpost" id="get" value="GET" checked>GET
@@ -117,7 +113,7 @@
 					</tr>
 					<tr>
 							<td>
-							<p align="left" /> Tipo de codificacion:
+							Tipo de codificacion:
 						</td>
 						<td>
 							<input type="radio" name="codificacion" id="cod1" value="application/x-www-form-urlencoded" checked>application/x-www-form-urlencoded
@@ -129,7 +125,7 @@
 					</tr>
 					<tr>
 							<td>
-							<p align="left" /> URL de destino:
+							URL de destino:
 						</td>
 						<td>
 							<input type="radio" name="destinophp" id="des1" value="http://193.146.210.123/phpinfo.php" checked>http://193.146.210.123/phpinfo.php
@@ -163,6 +159,6 @@
 -->
         <!--  <p align="center"><a href="#inicio">Volver al inicio</a></p> -->
 
-</body>
+</BODY>
 
 </html>

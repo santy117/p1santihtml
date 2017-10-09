@@ -1,0 +1,7 @@
+SANTIAGO SALVADOR RODRÍGUEZ DNI: 53817732D
+CUENTA DE USUARIO: SINT18
+ 
+
+
+El formulario incluye comprobaciones de fechas válidas, así como del número de dígitos correctos para la introducción de un número de teléfono. Además, en php se introduce la información del servidor usando una variable de entorno proporcionada por el servidor WWW.
+El archivo HTML ha sido validado correctamente por la página web que me proporcionasteis en la descripción de la práctica.

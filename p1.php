@@ -8,6 +8,7 @@
 		$metodo = $_GET;
 	}
 $infoserver1=$_SERVER['SERVER_NAME'];
+$infoserver2=$_SERVER['SERVER_PORT'];
 $nombre=$metodo["registro1"];
 $telefono=$metodo["registro2"];
 $password=$metodo["pass"];
@@ -34,6 +35,8 @@ $navegador=$metodo["navegador"];
 <?php echo("HORA : " . $hora); ?> <br>
 <?php echo("NAVEGADOR : " . $navegador); ?> <br>
 <?php echo("NOMBRE DEL SERVIDOR : " . $infoserver1); ?> <br>
+<?php echo("PUERTO DEL SERVIDOR : " . $infoserver2); ?> <br>
+
 	<table>
 	<tr>
 	<td>

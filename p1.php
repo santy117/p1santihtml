@@ -81,21 +81,6 @@ $navegador=$metodo["navegador"];
 			}else{
 			echo $_FILES['fotoperfil']['name'];
 		}
-		?> <br>
-		Tamaño de la imagen :
-		<?php if(($_FILES['fotoperfil']['size']==0)) {
-			echo 'No se ha seleccionado foto de perfil';
-		}else{
-			echo $_FILES['fotoperfil']['size'];
-			echo ' bytes';
-				}
-		 ?> <br>
-		Extension de la imagen :
-		<?php if(empty($_FILES['fotoperfil'])) {
-			echo 'No se ha seleccionado foto de perfil';
-		}else{
-			echo $_FILES['fotoperfil']['type'];
-		}
 		?>
 
 	</div>
@@ -122,12 +107,43 @@ $navegador=$metodo["navegador"];
 						if (empty($estreno)) {
   						$estreno=$campovacio;
 					}
+					if (empty($metodo["checkbox1"])) {
+  						$check1="";
+					}else{
+						$check1=" Accion ";
+					}
+					if (empty($metodo["checkbox2"])) {
+  						$check2="";
+					}else{
+						$check2=" Comedia ";
+					}
+					if (empty($metodo["checkbox3"])) {
+  						$check3="";
+					}else{
+						$check3=" Fantasia ";
+					}
+					if (empty($metodo["checkbox4"])) {
+  						$check4="";
+					}else{
+						$check4=" Drama ";
+					}
+					if (empty($metodo["checkbox5"])) {
+  						$check5="";
+					}else{
+						$check5=" Terror ";
+					}
+					if (empty($metodo["checkbox6"])) {
+  						$check6="";
+					}else{
+						$check6=" Animacion ";
+					}
 
 				?>
 				<?php echo("Pelicula: " . $pelicula); ?> <br><br>
 				<?php echo("Sinopsis: " . $sinopsis); ?> <br><br>
 				<?php echo("Director: " . $director); ?> <br><br>
 				<?php echo("Fecha de estreno: " . $estreno); ?> <br><br>
+				<?php echo("Generos: " . $check1 . $check2 . $check3 . $check4 . $check5 . $check6); ?> <br><br>
 			</tr>
 		</table>
 	</div>

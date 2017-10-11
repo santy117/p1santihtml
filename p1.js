@@ -53,10 +53,7 @@
 			var hora = h+':'+m+':'+s;
 			document.formulario.hora.value = hora;
 			document.formulario.navegador.value= navigator.userAgent;
-			if(document.getElementById("pass").value.length<6){
-				alert('La contraseña es demasiado corta. Minimo 6 caracteres');
-				return false;
-			}
+			
 			if (document.formulario.destinophp[1].checked){
    				document.formulario.action="p1.php";
    			}else{
